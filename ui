@@ -146,9 +146,9 @@ function module:New(name)
         tabbuttons.Name = "tab buttons"
         tabbuttons.Parent = Main
         tabbuttons.Active = true
-        tabbuttons.ScrollBarImageColor3 = Color3.fromRGB(69, 69, 107)
+        tabbuttons.ScrollBarImageColor3 = Color3.fromRGB(69, 0, 0)
         tabbuttons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        tabbuttons.BackgroundColor3 = Color3.fromRGB(26, 32, 58)
+        tabbuttons.BackgroundColor3 = Color3.fromRGB(100, 0, 0)
         tabbuttons.BorderSizePixel = 0
         tabbuttons.Position = UDim2.new(0, 0, 0.0918114111, 0)
         tabbuttons.Size = UDim2.new(0, 182, 0, 320)
