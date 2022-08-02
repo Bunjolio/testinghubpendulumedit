@@ -65,14 +65,14 @@ function module:New(name)
         local Main = Instance.new("Frame")
         Main.Name = "Main"
         Main.Parent = ScreenGui
-        Main.BackgroundColor3 = Color3.fromRGB(38, 45, 71)
+        Main.BackgroundColor3 = Color3.fromRGB(38, 0,0)
         Main.BorderColor3 = Color3.fromRGB(100, 100, 100)
         Main.Position = UDim2.new(0.341675043, 0, 0.403705865, 0)
         Main.Size = UDim2.new(0, 602, 0, 403)
 	
         local UIStroke = Instance.new('UIStroke')
         UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        UIStroke.Color = Color3.fromRGB(102, 61, 255)
+        UIStroke.Color = Color3.fromRGB(0, 0, 255)
         UIStroke.LineJoinMode = Enum.LineJoinMode.Round
         UIStroke.Thickness = 2.5
         UIStroke.Transparency = 0
